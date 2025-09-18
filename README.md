@@ -1,2 +1,0 @@
-# JAVASCRIPT
- Curso de JAVASCRIPT
