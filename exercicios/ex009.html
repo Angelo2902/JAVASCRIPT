@@ -7,22 +7,23 @@
 </head>
 <body>
     <h1>Sistema de país</h1>
-    <p>digite seu país de origem <input type="text" id="pais"> 
-        <input type="submit" value="Verificar" onclick="verificar()"></p>
-    <div id="res">
+    <p>digite seu país de origem <input type="text" id="pais" autocomplete="off"> 
+        <input type="submit" value="Verificar" onclick="verificar()" ></p>
+    <div id="canva">
 
     </div>
     <script>
-        var pais = window.document.getElementById('pais')
-        var res = window.document.querySelector('div#res')
-        var tex = String(res)
         function verificar(){
-        if (pais == 'brasil'){
-            res.innerHTML+= `Voce mora no país -->${pais}<-- então você é da gema né`
-        } else {
-            res.innerHTML += `voce mora num país estrangeiro, cuidado`
+            var stt = window.document.querySelector('input#pais')
+            var res = window.document.querySelector('div#canva')
+            res.innerHTML += `seu país de origem é o ${stt.value}, `
+        if (stt == 'Brasil'){
+            res.innerHTML = `<p>vc é de casa</p>`
+        }else{
+            res.innerHTML = `<p>vc é estrangeiro</p>`
         }
-        }
+        } 
+         
     </script>
 </body>
 </html>
