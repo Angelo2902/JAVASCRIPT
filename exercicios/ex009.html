@@ -17,11 +17,12 @@
             var stt = window.document.querySelector('input#pais')
             var res = window.document.querySelector('div#canva')
             res.innerHTML += `seu país de origem é o ${stt.value}, `
-        if (stt == 'Brasil'){
-            res.innerHTML = `<p>vc é de casa</p>`
-        }else{
-            res.innerHTML = `<p>vc é estrangeiro</p>`
-        }
+            if (stt.value == 'Brasil') {
+                res.innerHTML += `<p>você já é de casa, </p>`
+            }else{
+                res.innerHTML += `<p>voce veio dos ${stt.value}, então é estrangeiro</p>`
+            }
+                res.innerHTML += `<p>seja bem vindo ao Brasil</p>`
         } 
          
     </script>
