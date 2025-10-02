@@ -16,7 +16,7 @@ function verificar() {
         var img = document.createElement('img')//cria uma div usando javascript
         img.setAttribute('id', 'foto')//coloca um atributo na div img, nesse caso o id dela é foto
         res.style.textAlign = 'center'
-
+        
         if (fsex[0].checked){
             genero = 'um Homem'
 
