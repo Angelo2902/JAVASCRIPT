@@ -1,7 +1,7 @@
 @charset "utf-8";
 * {
     padding: 0px;
-    margin: 0xp;
+    margin: 0xp; 
     
 }
 
@@ -21,6 +21,12 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 0px 2px 10px black;
+    
+}
+div {
+    text-align: center;
+    padding: 5px;
+    
 }
 footer {
     color: white;
