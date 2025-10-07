@@ -1,11 +1,10 @@
-var n1 = 1
-var n2 = 1
-var soma = n1 + n2
+var agora = new Date()
+var hora = agora.getMinutes()
+var hora1 = agora.getHours()
 
+if (hora == 51){
+console.log(`${hora1}:${hora}`)
+}else{
+    console.log('ainda não deu o horário')
+}
 
-do{
-    console.log(`${soma}`)
-    n1++
-    n2++ 
-    
-}while(soma <= 10)
