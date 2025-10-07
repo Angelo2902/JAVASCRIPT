@@ -4,8 +4,8 @@ var soma = n1 + n2
 
 
 do{
-    n1++
     console.log(`${soma}`)
+    n1++
+    n2++ 
     
-    
-}while(soma = 10)
+}while(soma <= 10)
