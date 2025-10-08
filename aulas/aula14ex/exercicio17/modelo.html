@@ -9,19 +9,24 @@
 <body onload="carregar()">
     <!-- lembrar de colocar a sintex de chamado de load, pra poder rodar as funçoes do javascript-->
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Tabuada</h1>
     </header>
     <section>
         <div>
-
+            <p>
+                insira um numero: <input type="number" name="numero" id="inum">
+                <input type="button" value="Gerar tabuada" onclick="gerar()">
+            </p>
         </div>
-        <div> 
-            
+        <div id="res">
+            <select name="tabuada" id="seltab" size="10">
+                <option>digite um número acima</option>
+            </select>
         </div>
     </section>
     <footer>
         <p>&copy; Curso em Video</p>
-    </footer>
-    <script src="scripit.js"></script>
+    </footer>   
+    <script src="scripit.js"></script> 
 </body>
 </html>

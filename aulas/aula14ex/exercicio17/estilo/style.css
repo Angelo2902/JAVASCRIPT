@@ -16,7 +16,7 @@ header {
 }
 section {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px; 
     padding: 15px;
     width: 500px;
     margin: auto;
@@ -24,7 +24,7 @@ section {
     
 }
 div {
-    text-align: center;
+    text-align: left;
     padding: 5px;
     
 }
@@ -32,4 +32,9 @@ footer {
     color: white;
     text-align: center;
     font-style: italic;
+}
+
+#itex {
+    width: 200px;
+    height: 300px;
 }
