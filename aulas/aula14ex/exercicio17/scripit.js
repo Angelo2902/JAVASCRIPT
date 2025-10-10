@@ -18,8 +18,8 @@
         }
 
 
-
        /*while(c <= 10){
+
         let item = document.createElement('option')//cria um elemento option na lista
         item.text = `${n} x ${c} = ${n*c}`
         item.value = `tab${c}`
